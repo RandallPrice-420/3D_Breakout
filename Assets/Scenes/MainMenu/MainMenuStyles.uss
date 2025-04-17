@@ -1,0 +1,40 @@
+.header {
+    font-size: 45px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 153, 0);
+    border-bottom-width: 5px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+}
+
+.button {
+    font-size: 30px;
+    -unity-font-style: bold;
+    width: 250px;
+    background-color: rgb(235, 75, 70);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0);
+    background-image: url("project://database/Assets/Scenes/MainMenu/Sprites/Brick_Orange_74x33.png?fileID=2800000&guid=685e958dea97f2841a8a90d89155a661&type=3#Brick_Orange_74x33");
+}
+
+.button:hover {
+    font-size: 30px;
+    -unity-font-style: bold;
+    background-color: rgb(130, 37, 34);
+    color: rgb(255, 255, 255);
+    -unity-slice-scale: 1px;
+    scale: 1.1 1.1;
+    transition-property: scale;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}

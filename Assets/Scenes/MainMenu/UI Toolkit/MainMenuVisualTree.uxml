@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scenes/MainMenu/MainMenuStyles.uss?fileID=7433441132597879392&amp;guid=6ddc35911bfd770448b9e16bdb0bd9a3&amp;type=3#MainMenuStyles" />
+    <ui:VisualElement name="SceneContainer" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="MainMenuContainer" style="flex-grow: 0; border-left-color: rgb(255, 153, 0); border-right-color: rgb(255, 153, 0); border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; width: 400px; height: 400px; background-image: none; opacity: 1; background-color: rgb(62, 79, 197);">
+            <ui:VisualElement name="HeaderContainer" style="flex-grow: 0; align-items: center; align-self: center;">
+                <ui:Label tabindex="-1" text="MAIN MENU" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Header" class="header" style="width: 400px; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; align-self: center; justify-content: center; align-items: center;">
+                <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonPlay" class="button" />
+                <ui:Button text="SETTINGS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonSettings" class="button" />
+                <ui:Button text="QUIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonQuit" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
